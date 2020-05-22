@@ -13,7 +13,7 @@ setOptions({
   hierarchySeparator: /\./
 });
 
-addDecorator(story => <div style={{ maxWidth: "80%" }}>{story()}</div>);
+addDecorator((story) => <div style={{ maxWidth: "80%" }}>{story()}</div>);
 addDecorator(withPerformance);
 
 const loadStories = () => {

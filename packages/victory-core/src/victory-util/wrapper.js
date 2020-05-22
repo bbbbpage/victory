@@ -398,7 +398,6 @@ export default {
 
     const xStrings = this.getCategoryAndAxisStringsFromChildren(props, "x", childComponents);
     const yStrings = this.getCategoryAndAxisStringsFromChildren(props, "y", childComponents);
-
     const dataStrings = this.getStringsFromData(childComponents);
 
     return {
